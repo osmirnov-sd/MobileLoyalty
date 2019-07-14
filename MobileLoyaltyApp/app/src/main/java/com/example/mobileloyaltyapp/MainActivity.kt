@@ -11,6 +11,10 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.widget.TextView
+import retrofit2.Call
+import retrofit2.Response
+import javax.security.auth.callback.Callback
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -64,12 +68,24 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
+
         when (item.itemId) {
             R.id.nav_home -> {
                 // Handle the camera action
             }
             R.id.nav_gallery -> {
+                val text = findViewById<TextView>(R.id.values)
 
+                MobileLoyaltyApi.retrofitService.getValues().enqueue(object: retrofit2.Callback<String>{
+                    override fun onFailure(call: Call<String>?, t: Throwable) {
+                        text.text = "Failure: " + t.message.toString()
+                    }
+
+                    override fun onResponse(call: Call<String>?, response: Response<String>) {
+                        text.text = response.body()
+                    }
+
+                })
             }
             R.id.nav_slideshow -> {
 
