@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\Loyality\POCOModels\bin\Debug\netcoreapp2.2\POCOModels.deps.json
+C:\Users\User\source\repos\Loyality\POCOModels\bin\Debug\netcoreapp2.2\POCOModels.dll
+C:\Users\User\source\repos\Loyality\POCOModels\obj\Debug\netcoreapp2.2\POCOModels.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Loyality\POCOModels\obj\Debug\netcoreapp2.2\POCOModels.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Loyality\POCOModels\obj\Debug\netcoreapp2.2\POCOModels.AssemblyInfo.cs
+C:\Users\User\source\repos\Loyality\POCOModels\bin\Debug\netcoreapp2.2\POCOModels.pdb
+C:\Users\User\source\repos\Loyality\POCOModels\obj\Debug\netcoreapp2.2\POCOModels.dll
+C:\Users\User\source\repos\Loyality\POCOModels\obj\Debug\netcoreapp2.2\POCOModels.pdb
+C:\Users\User\source\repos\Loyality\POCOModels\obj\Debug\netcoreapp2.2\POCOModels.csprojAssemblyReference.cache
