@@ -1,43 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Loyality\\Loyality\\Loyality.csproj": {}
+    "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\Loyality\\Loyality.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Loyality\\AuthControllersLibrary\\AuthControllersLibrary.csproj": {
+    "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\AuthControllersLibrary\\AuthControllersLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Loyality\\AuthControllersLibrary\\AuthControllersLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\AuthControllersLibrary\\AuthControllersLibrary.csproj",
         "projectName": "AuthControllersLibrary",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Loyality\\AuthControllersLibrary\\AuthControllersLibrary.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Loyality\\AuthControllersLibrary\\obj\\",
+        "projectPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\AuthControllersLibrary\\AuthControllersLibrary.csproj",
+        "packagesPath": "C:\\Users\\osmirnov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\AuthControllersLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\osmirnov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\Loyality\\POCOModels\\POCOModels.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Loyality\\POCOModels\\POCOModels.csproj"
+              "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\POCOModels\\POCOModels.csproj": {
+                "projectPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\POCOModels\\POCOModels.csproj"
               }
             }
           }
@@ -49,7 +43,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -66,8 +60,12 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.5.0, )"
             }
           },
           "imports": [
@@ -78,43 +76,37 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\Loyality\\Loyality\\Loyality.csproj": {
+    "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\Loyality\\Loyality.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Loyality\\Loyality\\Loyality.csproj",
+        "projectUniqueName": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\Loyality\\Loyality.csproj",
         "projectName": "Loyality",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Loyality\\Loyality\\Loyality.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Loyality\\Loyality\\obj\\",
+        "projectPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\Loyality\\Loyality.csproj",
+        "packagesPath": "C:\\Users\\osmirnov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\Loyality\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\osmirnov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\Loyality\\AuthControllersLibrary\\AuthControllersLibrary.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Loyality\\AuthControllersLibrary\\AuthControllersLibrary.csproj"
+              "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\AuthControllersLibrary\\AuthControllersLibrary.csproj": {
+                "projectPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\AuthControllersLibrary\\AuthControllersLibrary.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\Loyality\\POCOModels\\POCOModels.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Loyality\\POCOModels\\POCOModels.csproj"
+              "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\POCOModels\\POCOModels.csproj": {
+                "projectPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\POCOModels\\POCOModels.csproj"
               }
             }
           }
@@ -126,23 +118,17 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.1, )",
               "autoReferenced": true
             },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
@@ -162,37 +148,31 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\Loyality\\POCOModels\\POCOModels.csproj": {
+    "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\POCOModels\\POCOModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Loyality\\POCOModels\\POCOModels.csproj",
+        "projectUniqueName": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\POCOModels\\POCOModels.csproj",
         "projectName": "POCOModels",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Loyality\\POCOModels\\POCOModels.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Loyality\\POCOModels\\obj\\",
+        "projectPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\POCOModels\\POCOModels.csproj",
+        "packagesPath": "C:\\Users\\osmirnov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osmirnov\\Documents\\repos\\MobileLoyalty\\POCOModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\osmirnov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -203,7 +183,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -220,7 +200,7 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
