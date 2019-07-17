@@ -1,1 +1,1 @@
-# MobileLoyalty
+api for Loyalty
