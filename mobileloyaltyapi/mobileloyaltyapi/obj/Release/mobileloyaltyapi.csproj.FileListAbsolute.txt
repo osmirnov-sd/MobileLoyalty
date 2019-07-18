@@ -93,3 +93,4 @@ C:\Users\osmirnov\Documents\repos\ML\mobileloyaltyapi\mobileloyaltyapi\bin\Micro
 C:\Users\osmirnov\Documents\repos\ML\mobileloyaltyapi\mobileloyaltyapi\obj\Release\mobileloyaltyapi.csproj.CoreCompileInputs.cache
 C:\Users\osmirnov\Documents\repos\ML\mobileloyaltyapi\mobileloyaltyapi\obj\Release\mobileloyaltyapi.dll
 C:\Users\osmirnov\Documents\repos\ML\mobileloyaltyapi\mobileloyaltyapi\obj\Release\mobileloyaltyapi.pdb
+C:\Users\osmirnov\Documents\repos\ML\mobileloyaltyapi\mobileloyaltyapi\obj\Release\mobileloyaltyapi.csprojResolveAssemblyReference.cache
