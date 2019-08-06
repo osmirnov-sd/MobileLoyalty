@@ -11,7 +11,13 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.widget.EditText
 import android.widget.TextView
+import com.example.mobileloyaltyapplication.fragments.AdsFragment
+import com.example.mobileloyaltyapplication.fragments.HistoryFragment
+import com.example.mobileloyaltyapplication.fragments.ProfileFragment
+import com.example.mobileloyaltyapplication.fragments.QRFragment
+import com.example.mobileloyaltyapplication.models.Profile
 import retrofit2.Call
 import retrofit2.Response
 
@@ -38,6 +44,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         navView.setNavigationItemSelectedListener(this)
+
+        if(savedInstanceState == null){
+            supportFragmentManager.beginTransaction().replace(R.id.fragment_layout,
+                ProfileFragment()).commit()
+            navView.setCheckedItem(R.id.nav_profile)
+        }
     }
 
     override fun onBackPressed() {
@@ -68,36 +80,29 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_home -> {
-                // Handle the camera action
-            }
-            R.id.nav_gallery -> {
-                val text = findViewById<TextView>(R.id.values)
 
-                MobileLoyaltyApi.retrofitService.getValues().enqueue(object: retrofit2.Callback<String>{
-                    override fun onFailure(call: Call<String>?, t: Throwable) {
-                        text.text = "Failure: " + t.message.toString()
-                    }
+            R.id.nav_profile -> {
 
-                    override fun onResponse(call: Call<String>?, response: Response<String>) {
-                        text.text = response.body()
-                    }
-
-                })
+                supportFragmentManager.beginTransaction().replace(R.id.fragment_layout,
+                    ProfileFragment()).commit()
 
             }
-            R.id.nav_slideshow -> {
+            R.id.nav_history -> {
+                supportFragmentManager.beginTransaction().replace(R.id.fragment_layout,
+                    HistoryFragment()).commit()
 
             }
-            R.id.nav_tools -> {
+            R.id.nav_ads -> {
+                supportFragmentManager.beginTransaction().replace(R.id.fragment_layout,
+                    AdsFragment()).commit()
 
             }
-            R.id.nav_share -> {
+            R.id.nav_qr -> {
+                supportFragmentManager.beginTransaction().replace(R.id.fragment_layout,
+                    QRFragment()).commit()
 
             }
-            R.id.nav_send -> {
 
-            }
         }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         drawerLayout.closeDrawer(GravityCompat.START)
