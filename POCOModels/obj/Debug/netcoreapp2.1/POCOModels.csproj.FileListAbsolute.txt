@@ -6,3 +6,12 @@ C:\Users\osmirnov\Documents\repos\MobileLoyalty\POCOModels\obj\Debug\netcoreapp2
 C:\Users\osmirnov\Documents\repos\MobileLoyalty\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.AssemblyInfo.cs
 C:\Users\osmirnov\Documents\repos\MobileLoyalty\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.dll
 C:\Users\osmirnov\Documents\repos\MobileLoyalty\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.pdb
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\bin\Debug\netcoreapp2.1\POCOModels.deps.json
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\bin\Debug\netcoreapp2.1\POCOModels.dll
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\bin\Debug\netcoreapp2.1\POCOModels.pdb
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.csprojResolveAssemblyReference.cache
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.csproj.CoreCompileInputs.cache
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.AssemblyInfoInputs.cache
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.AssemblyInfo.cs
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.dll
+C:\Users\osmirnov\Documents\repos\ML\POCOModels\obj\Debug\netcoreapp2.1\POCOModels.pdb

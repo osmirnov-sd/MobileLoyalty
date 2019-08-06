@@ -43,6 +43,7 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+AuthControllersLibrary/[Bb]in/*
 
 # Visual Studo 2015 cache/options directory
 .vs/
@@ -58,6 +59,7 @@ TestResult.xml
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
+POCOModels/*
 dlldata.c
 
 *_i.c
@@ -84,6 +86,7 @@ dlldata.c
 *.pidb
 *.svclog
 *.scc
+*.dll
 
 # Chutzpah Test files
 _Chutzpah*

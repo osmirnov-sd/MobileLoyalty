@@ -10,3 +10,14 @@ C:\Users\osmirnov\Documents\repos\MobileLoyalty\AuthControllersLibrary\obj\Debug
 C:\Users\osmirnov\Documents\repos\MobileLoyalty\AuthControllersLibrary\bin\Debug\netcoreapp2.1\AuthControllersLibrary.pdb
 C:\Users\osmirnov\Documents\repos\MobileLoyalty\AuthControllersLibrary\obj\Debug\netcoreapp2.1\AuthControllersLibrary.dll
 C:\Users\osmirnov\Documents\repos\MobileLoyalty\AuthControllersLibrary\obj\Debug\netcoreapp2.1\AuthControllersLibrary.pdb
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\bin\Debug\netcoreapp2.1\AuthControllersLibrary.deps.json
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\bin\Debug\netcoreapp2.1\AuthControllersLibrary.dll
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\bin\Debug\netcoreapp2.1\AuthControllersLibrary.pdb
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\bin\Debug\netcoreapp2.1\POCOModels.dll
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\bin\Debug\netcoreapp2.1\POCOModels.pdb
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\obj\Debug\netcoreapp2.1\AuthControllersLibrary.csprojResolveAssemblyReference.cache
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\obj\Debug\netcoreapp2.1\AuthControllersLibrary.csproj.CoreCompileInputs.cache
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\obj\Debug\netcoreapp2.1\AuthControllersLibrary.AssemblyInfoInputs.cache
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\obj\Debug\netcoreapp2.1\AuthControllersLibrary.AssemblyInfo.cs
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\obj\Debug\netcoreapp2.1\AuthControllersLibrary.dll
+C:\Users\osmirnov\Documents\repos\ML\AuthControllersLibrary\obj\Debug\netcoreapp2.1\AuthControllersLibrary.pdb
