@@ -1,0 +1,8 @@
+Loyality/bin/
+Loyality/obj/
+POCOModels/bin/
+POCOModels/obj/
+AuthControllersLibrary/obj/
+AuthControllersLibrary/bin/
+
+.vs/Loyality/v15/sqlite3/storage.ide
