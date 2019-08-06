@@ -12,7 +12,12 @@ namespace mobileloyaltyapi.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "value11", "value22" };
+            using (var context = new AppDbContext())
+            {
+                var entities = context.Entity.ToArray();
+                return new [] { $"We have {entities.Length} entitie(s)." };
+            }
+
         }
 
         // GET api/values/5

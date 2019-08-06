@@ -1,2 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="SqlServer-Web.config Connection String" description="SqlServer Connection String used in web.config by the application to access the database." defaultValue="Data Source=localhost;Initial Catalog=SchoolDB;Integrated Security=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\osmirnov\\Documents\\repos\\ML\\mobileloyaltyapi\\mobileloyaltyapi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SqlServer']/@connectionString" />
+  </parameter>
+  <parameter name="Default-Web.config Connection String" description="Default Connection String used in web.config by the application to access the database." defaultValue="host=84.201.136.237;port=5432;database=loyalty;user id=dbadmin;password=assa" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\osmirnov\\Documents\\repos\\ML\\mobileloyaltyapi\\mobileloyaltyapi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Default']/@connectionString" />
+  </parameter>
+</parameters>

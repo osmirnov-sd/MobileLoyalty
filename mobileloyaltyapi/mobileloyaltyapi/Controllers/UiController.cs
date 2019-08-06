@@ -38,24 +38,28 @@ namespace mobileloyaltyapi.Controllers
         }
 
         [System.Web.Http.HttpGet]
-        public IEnumerable<string> Ads()
+        public object Ads()
         {
-            return new List<string>
+            return new
             {
+                Ads = new List<string> {
                 "ad description",
                 "ad description",
                 "ad description"
+                }
             };
         }
 
         [System.Web.Http.HttpGet]
-        public IEnumerable<string> History()
+        public object History()
         {
-            return new List<string>
+            return new
             {
-                "record description",
-                "record description",
-                "record description"
+                History = new List<string> {
+                    "record description",
+                    "record description",
+                    "record description"
+                }
             };
         }
     }
