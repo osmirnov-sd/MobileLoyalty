@@ -17,11 +17,12 @@
     <string name="profile">Profile</string>
     <string name="ads_title">Ads</string>
     <string name="QR">QR</string>
-    <string name="History">History</string>
+    <string name="history">History: </string>
 
     <string name="ads">Ads: </string>
 
     <string name="username">Username: </string>
     <string name="balance">Balance: </string>
     <string name="transactions">Transactions:  </string>
+    <string name="image_qr">QR Image</string>
 </resources>
