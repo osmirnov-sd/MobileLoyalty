@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-
-namespace AuthControllersLibrary
+﻿namespace AuthControllersLibrary
 {
     public class UiController : ControllerBase
     {
@@ -13,7 +7,14 @@ namespace AuthControllersLibrary
         [HttpPost]
         public IActionResult GetAds()
         {
-            return new OkObjectResult(new { Ok = "Ok" });
+            return new OkObjectResult(new { Ok = "GetAds Ok" });
+        }
+
+        [Route("GetAds")]
+        [HttpPost]
+        public IActionResult GetHistory()
+        {
+            return new OkObjectResult(new { Ok = "GetHistory Ok" });
         }
 
     }
