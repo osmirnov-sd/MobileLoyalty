@@ -10,7 +10,7 @@
             return new OkObjectResult(new { Ok = "GetAds Ok" });
         }
 
-        [Route("GetAds")]
+        [Route("GetHistory")]
         [HttpPost]
         public IActionResult GetHistory()
         {
