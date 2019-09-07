@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MobileLoyaltyApp</string>
+    <string name="tab_text_1">Profile</string>
+    <string name="tab_text_2">History</string>
+    <string name="tab_text_3">Ads</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_history">History</string>
+    <string name="menu_ads">Ads</string>
+    <string name="menu_qr">Qr</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="profile">Profile</string>
+    <string name="ads_title">Ads</string>
+    <string name="QR">QR</string>
+    <string name="history">History:</string>
+
+    <string name="ads">Ads:</string>
+
+    <string name="username">Username:</string>
+    <string name="balance">Balance:</string>
+    <string name="transactions">Transactions:</string>
+    <string name="image_qr">QR Image</string>
+</resources>
