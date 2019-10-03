@@ -29,6 +29,25 @@
                 android:background="?attr/colorPrimary"/>
     </com.google.android.material.appbar.AppBarLayout>
 
+    <LinearLayout android:id="@+id/qr_layot"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="100dp"
+                  android:background="@android:color/tertiary_text_light"
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:visibility="invisible">
+
+        <ImageView android:id="@+id/image_qr"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:background="@android:color/tertiary_text_light"
+                   android:contentDescription="@string/image_qr"/>
+
+    </LinearLayout>
+
     <androidx.viewpager.widget.ViewPager
             android:id="@+id/view_pager"
             android:layout_width="match_parent"
