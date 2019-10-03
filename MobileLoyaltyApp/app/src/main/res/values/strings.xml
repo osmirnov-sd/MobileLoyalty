@@ -25,4 +25,5 @@
     <string name="balance">Balance:</string>
     <string name="transactions">Transactions:</string>
     <string name="image_qr">QR Image</string>
+    <string name="Balance_rur">Баллы:</string>
 </resources>

@@ -62,15 +62,15 @@ class ProfileFragment : Fragment() {
 
         MobileLoyaltyApi.retrofitService.getProfile().enqueue(object: retrofit2.Callback<Profile>{
             override fun onFailure(call: Call<Profile>, t: Throwable) {
-                username.text = "Failure: " + t.message.toString()
+                //username.text = "Failure: " + t.message.toString()
                 balance.text = "Failure: " + t.message.toString()
-                transaction.text = "Failure: " + t.message.toString()
+                //transaction.text = "Failure: " + t.message.toString()
             }
 
             override fun onResponse(call: Call<Profile>, response: Response<Profile>) {
                 username.text = response.body()!!.UserName
                 balance.text = response.body()!!.Balance.toString()
-                transaction.text = response.body()!!.Transactions.joinToString()
+                //transaction.text = response.body()!!.Transactions.joinToString()
             }
 
         })
