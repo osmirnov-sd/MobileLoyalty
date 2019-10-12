@@ -26,4 +26,6 @@
     <string name="transactions">Transactions:</string>
     <string name="image_qr">QR Image</string>
     <string name="Balance_rur">Баллы:</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="backButton">backButton</string>
 </resources>

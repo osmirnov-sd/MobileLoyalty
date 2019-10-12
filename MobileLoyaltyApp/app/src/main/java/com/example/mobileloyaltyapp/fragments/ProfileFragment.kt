@@ -1,6 +1,7 @@
 package com.example.mobileloyaltyapp.fragments
 
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,10 +10,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import com.example.mobileloyaltyapp.MobileLoyaltyApi
 
 import com.example.mobileloyaltyapp.R
 import com.example.mobileloyaltyapp.models.Profile
+import com.example.mobileloyaltyapp.ui.main.TestActivity
 import retrofit2.Call
 import retrofit2.Response
 
@@ -63,6 +66,16 @@ class ProfileFragment : Fragment() {
         val balance : TextView = getView()!!.findViewById(R.id.balance_edit)
         val progressBar : ProgressBar = getView()!!.findViewById(R.id.progressBar)
         val transaction : TextView = getView()!!.findViewById(R.id.transactions_edit)
+        val cardView : CardView = getView()!!.findViewById(R.id.cardView)
+
+        cardView.setOnClickListener{
+
+            var intent = Intent(activity?.applicationContext, TestActivity::class.java)
+            startActivity(intent)
+
+        }
+
+
 
         MobileLoyaltyApi.retrofitService.getProfile().enqueue(object: retrofit2.Callback<Profile>{
             override fun onFailure(call: Call<Profile>, t: Throwable) {
