@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.mobileloyaltyapp.MobileLoyaltyApi
 
@@ -54,10 +55,13 @@ class ProfileFragment : Fragment() {
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
+
+
         super.onActivityCreated(savedInstanceState)
 
         val username : TextView = getView()!!.findViewById(R.id.username_edit)
         val balance : TextView = getView()!!.findViewById(R.id.balance_edit)
+        val progressBar : ProgressBar = getView()!!.findViewById(R.id.progressBar)
         val transaction : TextView = getView()!!.findViewById(R.id.transactions_edit)
 
         MobileLoyaltyApi.retrofitService.getProfile().enqueue(object: retrofit2.Callback<Profile>{
@@ -68,6 +72,9 @@ class ProfileFragment : Fragment() {
             }
 
             override fun onResponse(call: Call<Profile>, response: Response<Profile>) {
+                Thread.sleep(3000)
+                progressBar.visibility = View.INVISIBLE
+                balance.visibility = View.VISIBLE
                 username.text = response.body()!!.UserName
                 balance.text = response.body()!!.Balance.toString()
                 //transaction.text = response.body()!!.Transactions.joinToString()
