@@ -54,18 +54,18 @@ class AdsFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        val ads : TextView = getView()!!.findViewById(R.id.ads_edit)
-
-        MobileLoyaltyApi.retrofitService.getAds().enqueue(object: retrofit2.Callback<Ads>{
-            override fun onFailure(call: Call<Ads>, t: Throwable) {
-                ads.text = "Failure: " + t.message.toString()
-            }
-
-            override fun onResponse(call: Call<Ads>, response: Response<Ads>) {
-                ads.text = response.body()!!.Ads.joinToString()
-            }
-
-        })
+//        val ads : TextView = getView()!!.findViewById(R.id.ads_edit)
+//
+//        MobileLoyaltyApi.retrofitService.getAds().enqueue(object: retrofit2.Callback<Ads>{
+//            override fun onFailure(call: Call<Ads>, t: Throwable) {
+//                ads.text = "Failure: " + t.message.toString()
+//            }
+//
+//            override fun onResponse(call: Call<Ads>, response: Response<Ads>) {
+//                ads.text = response.body()!!.Ads.joinToString()
+//            }
+//
+//        })
     }
 
     // TODO: Rename method, update argument and hook method into UI event

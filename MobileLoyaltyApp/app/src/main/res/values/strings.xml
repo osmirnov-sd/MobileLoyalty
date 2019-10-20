@@ -28,4 +28,6 @@
     <string name="Balance_rur">Баллы:</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="backButton">backButton</string>
+    <string name="bikeAd">bikeAd</string>
+    <string name="mobileAd">Mobile Ad</string>
 </resources>

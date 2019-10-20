@@ -1,38 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/frameLayout"
              android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context=".fragments.AdsFragment">
+             android:layout_height="match_parent" tools:context=".fragments.AdsFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                                       xmlns:app="http://schemas.android.com/apk/res-auto"
-                                                       xmlns:tools="http://schemas.android.com/tools"
-                                                       android:layout_width="match_parent"
-                                                       android:layout_height="match_parent"
-                                                       android:gravity="top"
-                                                       android:orientation="vertical"
-    >
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <TextView
-                style="@style/tag_name"
-                android:text="@string/ads"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:layout_marginTop="15dp"
+        >
+
+            <!-- <TextView
                 android:id="@+id/textView6"
-                android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginLeft="8dp" app:layout_constraintTop_toTopOf="parent"/>
-        <TextView
+                style="@style/tag_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""
-                android:ems="10"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp" android:text="@string/ads"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
                 android:id="@+id/ads_edit"
-                app:layout_constraintStart_toEndOf="@+id/textView6" android:layout_marginStart="48dp"
-                android:layout_marginLeft="48dp" app:layout_constraintTop_toTopOf="@+id/textView6"
-                app:layout_constraintBottom_toBottomOf="@+id/textView6"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:ems="10" android:text=""
+                app:layout_constraintBottom_toBottomOf="@+id/textView6"
+                app:layout_constraintStart_toEndOf="@+id/textView6"
+                app:layout_constraintTop_toTopOf="@+id/textView6"/>
+                -->
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/adsCardView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="17dp"
+            >
+
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                                   android:layout_height="match_parent">
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <ImageView
+                            android:id="@+id/facebookImageAd1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="170dp"
+                            android:paddingTop="8dp"
+                            android:contentDescription="@string/mobileAd"
+                            android:src="@drawable/facebook_ads"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
 
+                    <TextView
+                            android:id="@+id/facebookTextAd1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginRight="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Super Awesome Ad" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/facebookImageAd1"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/adsCardView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="17dp"
+            >
+
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                                   android:layout_height="match_parent">
+
+
+                    <ImageView
+                            android:id="@+id/googleImageAd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="170dp"
+                            android:contentDescription="@string/mobileAd"
+                            android:src="@drawable/google_ad"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:paddingTop="8dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                    <TextView
+                            android:id="@+id/googleTextAd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginRight="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Super Awesome Ad" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/googleImageAd"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/adsCardView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="17dp"
+            >
+
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                                   android:layout_height="match_parent">
+
+
+                    <ImageView
+                            android:id="@+id/bingImageAd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="170dp"
+                            android:contentDescription="@string/mobileAd"
+                            android:src="@drawable/bing_ad"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:paddingTop="8dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                    <TextView
+                            android:id="@+id/BingTextAd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginRight="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Super Awesome Ad" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/bingImageAd"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/adsCardView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="17dp"
+            >
+
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                                   android:layout_height="match_parent">
+
+
+                    <ImageView
+                            android:id="@+id/bumperImageAd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="170dp"
+                            android:contentDescription="@string/mobileAd"
+                            android:src="@drawable/bumper_ad"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:paddingTop="8dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                    <TextView
+                            android:id="@+id/bumperTextAd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginRight="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Super Awesome Ad" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/bumperImageAd"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
 </FrameLayout>
