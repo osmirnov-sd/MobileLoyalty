@@ -6,7 +6,6 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.example.mobileloyaltyapp.R
 import com.example.mobileloyaltyapp.fragments.AdsFragment
-import com.example.mobileloyaltyapp.fragments.BlankFragment
 import com.example.mobileloyaltyapp.fragments.HistotyFragment
 import com.example.mobileloyaltyapp.fragments.ProfileFragment
 

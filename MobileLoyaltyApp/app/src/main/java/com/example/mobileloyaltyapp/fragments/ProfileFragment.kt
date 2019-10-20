@@ -85,7 +85,6 @@ class ProfileFragment : Fragment() {
             }
 
             override fun onResponse(call: Call<Profile>, response: Response<Profile>) {
-                Thread.sleep(3000)
                 progressBar.visibility = View.INVISIBLE
                 balance.visibility = View.VISIBLE
                 username.text = response.body()!!.UserName
