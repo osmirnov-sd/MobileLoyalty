@@ -15,7 +15,7 @@ import com.example.mobileloyaltyapp.MobileLoyaltyApi
 
 import com.example.mobileloyaltyapp.R
 import com.example.mobileloyaltyapp.models.Profile
-import com.example.mobileloyaltyapp.ui.main.TestActivity
+import com.example.mobileloyaltyapp.ui.main.PageActivity
 import retrofit2.Call
 import retrofit2.Response
 
@@ -70,7 +70,7 @@ class ProfileFragment : Fragment() {
 
         cardView.setOnClickListener{
 
-            var intent = Intent(activity?.applicationContext, TestActivity::class.java)
+            var intent = Intent(activity?.applicationContext, PageActivity::class.java)
             startActivity(intent)
 
         }
